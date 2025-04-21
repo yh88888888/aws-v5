@@ -18,8 +18,6 @@ spring:
     open-in-view: true
     hibernate:
       ddl-auto: create
-      naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     show-sql: true
     properties:
       '[hibernate.format_sql]': true
@@ -31,5 +29,3 @@ spring:
 logging:
   level:
     '[org.springframework.boot.web]': DEBUG
-
-# debug info warn error  
