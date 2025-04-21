@@ -27,7 +27,6 @@ public class BookService {
     @Transactional(readOnly = true)
     public List<BookRespDto> 책목록보기() {
         List<Book> booksEntity = bookRepository.findAll();
-        System.out.println("사이즈 : " + booksEntity.size());
         return booksEntity.stream()
                 .map((book) -> new BookRespDto(book))
                 .collect(Collectors.toList());
