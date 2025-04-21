@@ -15,5 +15,12 @@
 - runs-on : ubuntu-latest 우분투 최신버전 변경
 - einaregilsson/beanstalk-deploy@v22 노드 버전 업데이트
 
+# 교재 부분
+```txt
+- 첫번째 도전 하지 말기!!
+- 두번째 도전 하지 말기!!
+- 처음부터 IAM만들고, 도전 성공 시키기
+```
+
 # 엘라스틱빈스톡 프로그래밍 엑세스 방식 키 만드는 법 변경됨
 https://getinthere.notion.site/290-9ad7cd0980fb42b79153dbf24faf35a6
